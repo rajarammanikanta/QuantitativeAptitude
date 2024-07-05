@@ -1,0 +1,12 @@
+
+
+.navbar{
+    background-color: #1A2130;
+    color: white;
+} 
+.navbar a{
+    font-family: sans-serif !important;
+} 
+.actions{
+    color: white !important;
+}
