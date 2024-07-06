@@ -1,0 +1,98 @@
+/* index.css (or your preferred CSS file) */
+
+.background {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+  
+.heading-dec-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.main-heading {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+.main-desc {
+    font-size: 1.2em;
+    color: #666;
+}
+  
+.concepts, .formulas, .practice-questions {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+  
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+  
+.concepts-list {
+    list-style-type: none;
+    padding: 0;
+}
+  
+.concepts-list li {
+    margin-bottom: 20px;
+}
+  
+h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+  
+.formulas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+  
+.formulas-table th, .formulas-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+  
+.formulas-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+  
+@media (max-width: 768px) {
+    .main-heading {
+        font-size: 2em;
+    }
+  
+    .main-desc {
+        font-size: 1em;
+    }
+  
+    h2 {
+        font-size: 1.5em;
+    }
+  
+    h3 {
+        font-size: 1.2em;
+    }
+  
+    .formulas-table th, .formulas-table td {
+        font-size: 0.9em;
+        padding: 6px;
+    }
+}

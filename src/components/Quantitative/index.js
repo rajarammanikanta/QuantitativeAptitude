@@ -1,3 +1,4 @@
+import React from "react";
 import "./index.css";
 
 function Quantitative() {
@@ -5,7 +6,9 @@ function Quantitative() {
     return (
       <div className="why-we-choose-container">
         <div className="why-we-choose-first-container">
-          <h1 className="why-we-choose-main-heading">Why Choose Us for Practicing Quantitative Aptitude Questions?</h1>
+          <h1 className="why-we-choose-main-heading">
+            Why Choose Us for Practicing Quantitative Aptitude Questions?
+          </h1>
           <p className="why-we-choose-main-des">
             Here are the reasons why our platform is the ideal choice for
             practicing quantitative aptitude questions:
@@ -22,7 +25,6 @@ function Quantitative() {
               applications, and formulas.
             </p>
           </li>
-
           <li>
             <p className="we-choose-question">2. User-Friendly Interface</p>
             <p className="why-we-choose-ans">
@@ -68,10 +70,10 @@ function Quantitative() {
 
   return (
     <div className="Quantitative-overall-container">
-      <div className="introduction-container">
-        <div className="introduction-content-container">
-          <h1 className="Quanti-main-heading">Quantitative Aptitude</h1>
-          <p className="Quanti-description">
+      <div class="introduction-container">
+        <div class="introduction-content-container">
+          <h2 class="Quanti-main-heading">Quantitative Aptitude</h2>
+          <p class="Quanti-description">
             Quantitative aptitude evaluates a candidate's numerical and
             analytical skills. Mastering this area requires a thorough
             understanding of concepts, formulas, tips, and techniques.
@@ -80,42 +82,60 @@ function Quantitative() {
             holds considerable importance.
           </p>
         </div>
-        <div>
+        <div class="introduction-image-container">
           <img
             src="https://images.pexels.com/photos/6256141/pexels-photo-6256141.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="img"
-            className="introduction-image"
+            alt="Quantitative Aptitude"
+            class="introduction-image"
           />
         </div>
       </div>
+
       <div className="topic-button-container">
         <div>
           <h1 className="topics-buttons-heading">
             Quantitative Aptitude Topics
           </h1>
         </div>
-
         <ul className="list-container">
           <li>
-            <button className="problem-button">Number System</button>
+            <a href="/numbersystm">
+              <button className="problem-button">Number System</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">HCF and LCM</button>
+            <a href="/hcflcm">
+              <button className="problem-button">HCF and LCM</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">Percentage</button>
+            <a href="/percentage">
+              <button className="problem-button">Percentage</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">Average</button>
+            <a href="/average">
+              {" "}
+              <button className="problem-button">Average</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">Simple Interest</button>
+            <a href="/simpleintrest">
+              {" "}
+              <button className="problem-button">Simple Interest</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">Ages</button>
+            <a href="/ages">
+              {" "}
+              <button className="problem-button">Ages</button>
+            </a>
           </li>
           <li>
-            <button className="problem-button">Profit and Loss</button>
+            <a href="/profitloss">
+              {" "}
+              <button className="problem-button">Profit and Loss</button>
+            </a>
           </li>
         </ul>
       </div>

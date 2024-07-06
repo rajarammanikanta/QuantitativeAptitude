@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Navbar expand="lg"  fixed="top"  bg="#0d6efd" data-bs-theme="dark" className="p-3">
       <Container fluid>
-        <Navbar.Brand href="#" className="fw-bold">Placement Preparation</Navbar.Brand>
+        <Navbar.Brand href="/" className="fw-bold">Placement Preparation</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav

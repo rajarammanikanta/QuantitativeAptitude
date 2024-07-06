@@ -1,0 +1,173 @@
+/* index.css */
+
+/* General styles */
+
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* HCF and LCM Section */
+  .Hcf-and-Lcm-background {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hcf-and-lcm-heading-dec-container {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hcf-and-lcm-main-heading {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hcf-and-lcm-main-desc {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  /* Concepts Section */
+  .concepts {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .concepts h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .concepts p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .concepts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .concepts-list li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .concepts-list h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .concepts-list p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Formulas Section */
+  .formulas {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulas h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .formulas p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .formulas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+  }
+  
+  .formulas-table th,
+  .formulas-table td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  .formulas-table th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .formulas-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Practice Questions Section */
+  .practice-questions {
+    background-color: #fff;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .practice-questions h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .practice-questions p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Navigation */
+  .nav-tabs {
+    margin-bottom: 2rem;
+  }
+  
+  .nav-tabs .nav-link {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    background-color: #e9ecef;
+  }
+  

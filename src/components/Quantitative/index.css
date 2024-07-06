@@ -1,140 +1,193 @@
-
-.introduction-container{
+/* Introduction Section */
+.introduction-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     box-shadow: 0px 4px 16px 0px #bfbfbf;
-    width: 80%;
+    width: 85%; /* Ensures the container occupies 85% of the screen width */
+    max-width: 1200px; /* Optional: Set a max-width for better control on larger screens */
     border-radius: 10px;
-    height: 75vh;
-   
-} 
-
-@media screen and (max-width:320px){
-    .introduction-container{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
+    margin: 20px auto; /* Center the container horizontally */
+    overflow: hidden;
+    background-color: white; /* Add background color to match the content */
 }
-.introduction-image{
-    height: 75vh;
+
+.introduction-image {
+    width: 100%;
+    height: auto;
     border-radius: 10px;
-    width: 700px;
-} 
-.introduction-content-container{
-    padding: 20px;
-    height: 550px;
+}
+
+.introduction-content-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    
-    
-} 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    box-sizing: border-box;
+    background-color: white; /* Add background color to match the content */
+}
 
-.Quantitative-overall-container{
+.Quantitative-overall-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-} 
-
-.Quanti-main-heading{
-    color:#C80036;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-align: center;
-} 
-.Quanti-description{
-    color:#0C1844;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 550;
-    font-size: 20px;
-    margin-left: 18px;
-} 
-
-.list-container{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-} 
-
-.problem-button{
-    background-color: transparent;
-    border-radius: 10px;
-    padding: 10px 38px 10px 38px;
-    width: 240px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 17px;
-    margin: 10px;
-    font-weight: bold; 
-    
-} 
-
-.problem-button:hover{
-    background-color:#C80036;
-    color: white;
-    border-width: 0px;
+    padding: 0 10px;
+    box-sizing: border-box;
 }
 
-.topic-button-container{
+.introduction-image-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.Quanti-main-heading {
+    color: #c80036;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Quanti-description {
+    color: #0c1844;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Topics Section */
+.topic-button-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin-top: 60px;
-    height: 100vh;
-   
-} 
-.topics-buttons-heading{
-    margin-top: 10px;
-    margin-bottom: 80px;
+    margin: 20px 0;
+}
+
+.topics-buttons-heading {
+    margin-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    color:#C80036
-} 
-.why-we-choose-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    width: 80%;
-} 
+    color: #c80036;
+    text-align: center;
+}
 
-.why-we-choose-first-container{
-    display: flex;
-    flex-direction: column;
-
-} 
-
-.we-choose-list-container{
+.list-container {
     list-style: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
-.we-choose-question{
+    flex-wrap: wrap;
+}
+
+.problem-button {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 38px;
+    width: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 10px;
     font-weight: bold;
-    color:#C80036;
-    font-size: 20px;
-} 
-.why-we-choose-main-heading{
-    color: #C80036;
-} 
-.why-we-choose-main-des{
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.problem-button:hover {
+    background-color: #c80036;
+    color: white;
+    border: none;
+}
+
+/* Why We Choose Section */
+.why-we-choose-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 85%;
+    max-width: 1200px; /* Optional: Set a max-width for better control on larger screens */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+}
+
+.why-we-choose-first-container {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.why-we-choose-main-heading {
+    color: #c80036;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.why-we-choose-main-des {
     font-size: 18px;
     font-weight: bold;
     color: black;
 }
 
-.why-we-choose-ans{
+.we-choose-list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.we-choose-list-container li {
+    margin-bottom: 20px;
+}
+
+.we-choose-question {
+    font-weight: bold;
+    color: #c80036;
+    font-size: 20px;
+}
+
+.why-we-choose-ans {
     color: black;
     font-weight: bold;
+}
+
+@media (min-width: 931px) {
+    .introduction-container {
+        flex-wrap: nowrap;
+    }
+
+    .introduction-content-container {
+        width: 40%;
+        background-color: white; /* Ensure background matches content */
+    }
+
+    .introduction-image-container {
+        width: 60%;
+        background-color: white; /* Ensure background matches content */
+    }
+
+    .topic-button-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .introduction-container {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    .introduction-content-container, 
+    .introduction-image-container {
+        width: 100%; /* Make both content and image take full width */
+    }
 }
